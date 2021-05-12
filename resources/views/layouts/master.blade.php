@@ -100,7 +100,7 @@
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                         <li class="nav-item">
-                            <a href="{{route('dashboard.index')}}" class="nav-link">
+                            <a href="{{ route('dashboard.index') }}" class="nav-link {{Request::is('/') ? 'active' : ''}}">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>
                                     Dashboard
@@ -108,7 +108,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{route('products.index')}}" class="nav-link">
+                            <a href="{{ route('products.index') }}" class="nav-link {{Request::is('*products*') ? 'active' : ''}}">
                                 <i class="nav-icon fas fa-box-open"></i>
                                 <p>
                                     Products
@@ -116,14 +116,13 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{route('suppliers.index')}}" class="nav-link">
+                            <a href="{{ route('suppliers.index') }}" class="nav-link {{Request::is('*suppliers*') ? 'active' : ''}}">
                                 <i class="nav-icon fas fa-shopping-basket"></i>
                                 <p>
                                     Suppliers
                                 </p>
                             </a>
                         </li>
-
                     </ul>
                 </nav>
                 <!-- /.sidebar-menu -->
