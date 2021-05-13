@@ -1,7 +1,6 @@
-# OPEN TO ANY CONTRIBUTION IN THIS REPOSITORY
-- YOU CAN CONTINUE THE PROJECT AND MAKE A PULL REQUEST
-- OR DO ANYTHING, ARE WELCOME :)
-
+# FREE TO CONTRIBUTE
+- You can continue the project and make a pull request
+- Or do anything is also welcome :)
 ---
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
